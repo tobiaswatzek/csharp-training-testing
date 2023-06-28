@@ -1,9 +1,8 @@
-using System.Collections;
-
 namespace CsharpTrainingTesting.App;
 
 public class Location
 {
+    public string Name { get; set; }
     public double La { get; set; }
     public double Lo { get; set; }
 }
